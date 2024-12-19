@@ -1,0 +1,10 @@
+// constant propagation, constant folding, and dead code elimination
+i = 2
+while i != 5 {
+    k = 1
+    a = 2
+    t = a + k
+    i = i + t
+    register_op FC (in: 4, out: 6)
+}
+       

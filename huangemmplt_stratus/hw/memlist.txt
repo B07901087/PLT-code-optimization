@@ -1,0 +1,4 @@
+huangemmplt_plm_block_in_dma32 24 32 2w:0r 0w:2r
+huangemmplt_plm_block_out_dma32 6 32 2w:0r 0w:2r
+huangemmplt_plm_block_in_dma64 24 32 2w:0r 0w:2r
+huangemmplt_plm_block_out_dma64 6 32 2w:0r 0w:2r

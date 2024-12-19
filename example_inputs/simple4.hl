@@ -1,0 +1,9 @@
+// accelerator reuse
+i = 1
+while i != 3 {
+    i = i + 1
+    register_op FC (in: 8, out: 10) 
+    if i == 3 {
+        break
+    }
+} 

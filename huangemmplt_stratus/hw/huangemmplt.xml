@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sld>
+  <accelerator name="huangemmplt" desc="Accelerator HUANGEMMPLT" data_size="4" device_id="08a" hls_tool="stratus_hls">
+    <param name="rows" desc="huangemmplt_len" />
+    <param name="cols" desc="huangemmplt_vec" />
+    <param name="loaded_cols" desc="huangemmplt_n" />
+  </accelerator>
+</sld>
