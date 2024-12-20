@@ -1,4 +1,4 @@
-// constant propagation, constant folding, and dead code elimination
+// all optimization techniques applied (multi-pass optimization, constant propagation, constant folding, common subexpression elimination, and dead code elimination)
 i = 2
 while i != 8 {
     k = 1

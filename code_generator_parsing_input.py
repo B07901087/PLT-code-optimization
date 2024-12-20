@@ -7,9 +7,10 @@ opt_common_subexpression_elimination = True
 opt_constant_folding = True
 opt_dead_code_elimination = True
 opt_multipass_optimization = False
-opt_accelerator_reuse = True
-opt_accelerator_delegate = True
+opt_accelerator_reuse = False
+opt_accelerator_delegate = False
 opt_operator_fusion = True
+num_iteration = 3
 
 def is_number(s):
     pattern = r'^-?\d+(\.\d+)?$'
@@ -130,7 +131,7 @@ class WhileNode(ASTNode):
 
         huan_count = 0
 
-        while huan_count < 3:
+        while huan_count < num_iteration:
             huan_count += 1
 
             symbols.append({})

@@ -100,6 +100,29 @@ code-exec:
 	cd generated_code/test4 && python3 generator.py && cd ../..
 	cd generated_code/test5 && python3 generator.py && cd ../..
 
+code-exec-1:
+	cd generated_code/test1 && python3 generator.py && cd ../..
+
+code-exec-2:
+	cd generated_code/test2 && python3 generator.py && cd ../..
+
+code-exec-3:
+	cd generated_code/test3 && python3 generator.py && cd ../..
+
+code-exec-4:
+	cd generated_code/test4 && python3 generator.py && cd ../..
+
+code-exec-5:
+	cd generated_code/test5 && python3 generator.py && cd ../..
+
+demo-4:
+	python3 code_generator_parsing_input.py ast_outputs/output4.txt -o generated_code/test4/generator.py
+	cd generated_code/test4 && python3 generator.py && cd ../..
+
+demo-5:
+	python3 code_generator_parsing_input.py ast_outputs/output5.txt -o generated_code/test5/generator.py
+	cd generated_code/test5 && python3 generator.py && cd ../..
+
 install:
 	cp generated_code/test1/FC_0/huangemmplt.hpp huangemmplt_stratus/hw/src/.
 	cp generated_code/test1/FC_0/init_data.hpp huangemmplt_stratus/hw/tb/.
